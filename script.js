@@ -1,6 +1,6 @@
 function titleCase(str) {
     var array = [];
-
+    str = str.toLowerCase();
     array = str.split(' ');
 
     for (let i = 0; i < array.length; i++) {
@@ -8,7 +8,7 @@ function titleCase(str) {
     }
     
     str = array.join(' ');
-    console.log(str);
+    
     
     return str;
   }

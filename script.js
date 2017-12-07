@@ -1,8 +1,11 @@
 function confirmEnding(str, target) {
-    var endChar = str.substr(str.length - 1);
+    var endStr = str.substr(str.length - target.length);
     
-    return endChar === target;
+    console.log(endStr);
+    
+
+    return endStr === target;
   }
   
-  var test = confirmEnding("Bastian", "r");
+  var test = confirmEnding("Bastian", "ian");
   console.log(test);

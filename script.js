@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function findLongestWord(str) {
     var strLength = 0;
     var string = '';
@@ -19,3 +20,25 @@ function findLongestWord(str) {
   }
   
   findLongestWord("The quick brown fox jumped over the lazy dog");
+=======
+function titleCase(str) {
+    var array = [];
+    str = str.toLowerCase();
+    array = str.split(' ');
+
+    for (let i = 0; i < array.length; i++) {
+        array[i] = sentenceCase(array[i]);
+    }
+    
+    str = array.join(' ');
+    
+    
+    return str;
+  }
+
+  function sentenceCase(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+  
+  titleCase("I'm a little tea pot");
+>>>>>>> 221-title-case-a-sentence

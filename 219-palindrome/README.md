@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Check for Palindromes
+=======
+#Check for Palindromes
+>>>>>>> 1b5906e5fb260a35018c8c8b453015a2215d830a
 
 Return true if the given string is a palindrome. Otherwise, return false.
 
